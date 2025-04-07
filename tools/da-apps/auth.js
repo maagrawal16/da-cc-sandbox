@@ -8,10 +8,12 @@ const ORG_MAP = {
   document.body.style.visibility = 'hidden';
 
   const searchParams = new URLSearchParams(window.location.search);
+
   const repo = searchParams.get('tenant');
   const token = searchParams.get('token');
   const ref = searchParams.get('ref');
   const redirectPath = searchParams.get('path');
+
   const tenant = ORG_MAP[repo];
 
   window.sessionStorage.setItem('da-repo', tenant);
