@@ -4,7 +4,6 @@ import DA_SDK from 'https://da.live/nx/utils/sdk.js';
 (async () => {
   try {
     const { context, token } = await DA_SDK;
-    debugger;
     const { repo, path, ref } = context;
     const redirectPath = path.split('/').pop();
     window.location.replace(
