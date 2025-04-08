@@ -57,14 +57,19 @@
   "apps": [
     {
       "title": "Search",
-        "description": "Unlocking Precision with Advanced Contextual Filters",
-        "image": "https://milostudio--milo--adobecom.aem.live/img/tools/search.jpg",
-        "url": "https://da.live/app/adobecom/da-cc-sandbox/tools/ms-apps/search"
+      "description": "Unlocking Precision with Advanced Contextual Filters",
+      "image": "https://milostudio--milo--adobecom.aem.live/img/tools/search.jpg",
+      "url": "https://da.live/app/adobecom/da-cc-sandbox/tools/ms-apps/search"
     },
     {
       "title": "Bulk Operations",
       "description": "Maximizing Efficiency Through Targeted Automation",
-      "url": "https://da.live/app/adobecom/da-cc-sandbox/tools/ms-apps/bulkops" 
+      "url": "https://da.live/app/adobecom/da-cc-sandbox/tools/ms-apps/bulkops"
+    },
+    {
+      "title": "Project Stream",
+      "description": "Import your Figma files directly in Document Authoring",
+      "url": "https://da.live/app/adobecom/da-cc-sandbox/tools/stream/figma"
     }
   ]
 }
